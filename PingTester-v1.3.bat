@@ -23,7 +23,7 @@ set percentage=0
 
 for /f "tokens=*" %%X in (%source%) do (
 	set /a total=total+1
-	ping -n %attempt% -w 4500 %%X > tempres.txt
+	ping -n %attempt% -w 30 %%X > tempres.txt
 	type tempres.txt >> %FILENAME%
 
 	for /f "tokens=2 delims=[]" %%Y in ('findstr /C:"Pinging" tempres.txt') do (
