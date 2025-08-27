@@ -1,0 +1,5 @@
+### Usage:
+Place the source file in the same directory as your bat file, you may take example on how the source txt is structured, you may also freely alter/create a new source file as the batch ask for your input of filename at the beginning of execution.
+
+### Note:
+I am not responsible for results of execution of this batch file, and will not provide support in any form under any circumstances. Use/Reference at your own discrete.
